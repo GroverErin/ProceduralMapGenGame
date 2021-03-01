@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ExeliusCore\ApplicationLayer.h" />
+    <ClInclude Include="ExeliusCore\Components\AIComponent.h" />
+    <ClInclude Include="ExeliusCore\Components\AnimationComponent.h" />
+    <ClInclude Include="ExeliusCore\Components\BoxRenderComponent.h" />
+    <ClInclude Include="ExeliusCore\Components\Physics\Box2D\Box2DPhysicsComponent.h" />
+    <ClInclude Include="ExeliusCore\Components\Physics\IPhysicsComponent.h" />
+    <ClInclude Include="ExeliusCore\Components\PlayerComponent.h" />
+    <ClInclude Include="ExeliusCore\Components\PowerUpComponent.h" />
+    <ClInclude Include="ExeliusCore\Components\ScriptComponent.h" />
+    <ClInclude Include="ExeliusCore\Components\TextRenderComponent.h" />
+    <ClInclude Include="ExeliusCore\Components\TextureComponent.h" />
+    <ClInclude Include="ExeliusCore\Components\TileSetComponent.h" />
+    <ClInclude Include="ExeliusCore\Components\TransformComponent.h" />
+    <ClInclude Include="ExeliusCore\Events\CreateActorEvent.h" />
+    <ClInclude Include="ExeliusCore\Events\DestroyActorEvent.h" />
+    <ClInclude Include="ExeliusCore\Events\Events.h" />
+    <ClInclude Include="ExeliusCore\Events\InputEvent.h" />
+    <ClInclude Include="ExeliusCore\Game\Actor.h" />
+    <ClInclude Include="ExeliusCore\Game\GameLayer.h" />
+    <ClInclude Include="ExeliusCore\Game\Physics\Box2D\Box2DContactListener.h" />
+    <ClInclude Include="ExeliusCore\Game\Physics\Box2D\Box2DPhysics.h" />
+    <ClInclude Include="ExeliusCore\Game\Physics\IPhysicsManager.h" />
+    <ClInclude Include="ExeliusCore\Game\View.h" />
+    <ClInclude Include="ExeliusCore\Managers\Audio.h" />
+    <ClInclude Include="ExeliusCore\Managers\Graphics.h" />
+    <ClInclude Include="ExeliusCore\Managers\Input.h" />
+    <ClInclude Include="ExeliusCore\Managers\ScriptManager.h" />
+    <ClInclude Include="ExeliusCore\Managers\System.h" />
+    <ClInclude Include="ExeliusCore\Mapping\Layer.h" />
+    <ClInclude Include="ExeliusCore\Mapping\Map.h" />
+    <ClInclude Include="ExeliusCore\Mapping\MapObject.h" />
+    <ClInclude Include="ExeliusCore\Mapping\ObjectLayer.h" />
+    <ClInclude Include="ExeliusCore\Mapping\Property.h" />
+    <ClInclude Include="ExeliusCore\Mapping\TileLayer.h" />
+    <ClInclude Include="ExeliusCore\Mapping\TileSet.h" />
+    <ClInclude Include="ExeliusCore\Processes\AnimationProcess.h" />
+    <ClInclude Include="ExeliusCore\Processes\DelayProcess.h" />
+    <ClInclude Include="ExeliusCore\Processes\MoveProcess.h" />
+    <ClInclude Include="ExeliusCore\Processes\Processes.h" />
+    <ClInclude Include="ExeliusCore\ResourceManagement\Resource.h" />
+    <ClInclude Include="ExeliusCore\ThirdParty\TinyXML2\tinyxml2.h" />
+    <ClInclude Include="ExeliusCore\Utilities\Color.h" />
+    <ClInclude Include="ExeliusCore\Utilities\Logger.h" />
+    <ClInclude Include="ExeliusCore\Utilities\Math\Math.h" />
+    <ClInclude Include="ExeliusCore\Utilities\Random\Noise\PerlinNoise.h" />
+    <ClInclude Include="ExeliusCore\Utilities\Random\Noise\SquirrelNoise.h" />
+    <ClInclude Include="ExeliusCore\Utilities\Random\Random.h" />
+    <ClInclude Include="ExeliusCore\Utilities\Shapes\Shapes.h" />
+    <ClInclude Include="ExeliusCore\Utilities\Vector2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ExeliusCore\ApplicationLayer.cpp" />
+    <ClCompile Include="ExeliusCore\Components\AnimationComponent.cpp" />
+    <ClCompile Include="ExeliusCore\Components\BoxRenderComponent.cpp" />
+    <ClCompile Include="ExeliusCore\Components\Physics\Box2D\Box2DPhysicsComponent.cpp" />
+    <ClCompile Include="ExeliusCore\Components\Physics\IPhysicsComponent.cpp" />
+    <ClCompile Include="ExeliusCore\Components\ScriptComponent.cpp" />
+    <ClCompile Include="ExeliusCore\Components\TextRenderComponent.cpp" />
+    <ClCompile Include="ExeliusCore\Components\TextureComponent.cpp" />
+    <ClCompile Include="ExeliusCore\Components\TileSetComponent.cpp" />
+    <ClCompile Include="ExeliusCore\Components\TransformComponent.cpp" />
+    <ClCompile Include="ExeliusCore\Events\Events.cpp" />
+    <ClCompile Include="ExeliusCore\Game\Actor.cpp" />
+    <ClCompile Include="ExeliusCore\Game\GameLayer.cpp" />
+    <ClCompile Include="ExeliusCore\Game\Physics\Box2D\Box2DContactListener.cpp" />
+    <ClCompile Include="ExeliusCore\Game\Physics\Box2D\Box2DPhysics.cpp" />
+    <ClCompile Include="ExeliusCore\Game\Physics\IPhysicsManager.cpp" />
+    <ClCompile Include="ExeliusCore\Managers\Audio.cpp" />
+    <ClCompile Include="ExeliusCore\Managers\Graphics.cpp" />
+    <ClCompile Include="ExeliusCore\Managers\Input.cpp" />
+    <ClCompile Include="ExeliusCore\Managers\ScriptManager.cpp" />
+    <ClCompile Include="ExeliusCore\Managers\System.cpp" />
+    <ClCompile Include="ExeliusCore\Mapping\Map.cpp" />
+    <ClCompile Include="ExeliusCore\Mapping\MapObject.cpp" />
+    <ClCompile Include="ExeliusCore\Mapping\ObjectLayer.cpp" />
+    <ClCompile Include="ExeliusCore\Mapping\Property.cpp" />
+    <ClCompile Include="ExeliusCore\Mapping\TileLayer.cpp" />
+    <ClCompile Include="ExeliusCore\Mapping\TileSet.cpp" />
+    <ClCompile Include="ExeliusCore\Processes\AnimationProcess.cpp" />
+    <ClCompile Include="ExeliusCore\Processes\DelayProcess.cpp" />
+    <ClCompile Include="ExeliusCore\Processes\MoveProcess.cpp" />
+    <ClCompile Include="ExeliusCore\Processes\Processes.cpp" />
+    <ClCompile Include="ExeliusCore\ResourceManagement\Resource.cpp" />
+    <ClCompile Include="ExeliusCore\ThirdParty\Middleware\TinyXML2\tinyxml2.cpp" />
+    <ClCompile Include="ExeliusCore\Utilities\Logger.cpp" />
+    <ClCompile Include="ExeliusCore\Utilities\Random\Random.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{58D3EA8A-B31C-4D56-B5FD-B53679EDDF51}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Exelius</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(ProjectDir)Libs\$(PlatformShortName)_$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)Temp\$(PlatformShortName)_$(Configuration)\</IntDir>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(ProjectDir)Libs\$(PlatformShortName)_$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)Temp\$(PlatformShortName)_$(Configuration)\</IntDir>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)Libs\$(PlatformShortName)_$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)Temp\$(PlatformShortName)_$(Configuration)\</IntDir>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)Libs\$(PlatformShortName)_$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)Temp\$(PlatformShortName)_$(Configuration)\</IntDir>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)ExeliusCore;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2\include;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_image\include;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_mixer\include;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_ttf\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>SDL2.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;zlibstat.lib;Lua.lib;box2d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2\lib\$(PlatformShortName)\;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_image\lib\$(PlatformShortName)\;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_ttf\lib\$(PlatformShortName)\;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_mixer\lib\$(PlatformShortName)\;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\zlib\lib\$(PlatformShortName)_$(Configuration)\;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\Box2D\lib\$(Configuration)\;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\Lua\lib\$(PlatformShortName)_$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4006</AdditionalOptions>
+    </Lib>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2\lib\$(PlatformShortName)\*.dll" "$(OutDir)" /y /i /d
+xcopy "$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_image\lib\$(PlatformShortName)\*.dll" "$(OutDir)" /y /i /d
+xcopy "$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_mixer\lib\$(PlatformShortName)\*.dll" "$(OutDir)" /y /i /d
+xcopy "$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_ttf\lib\$(PlatformShortName)\*.dll" "$(OutDir)" /y /i /d
+xcopy "$(ProjectDir)ExeliusCore\ThirdParty\Middleware\Lua\lib\$(PlatformShortName)_$(Configuration)\*.dll" "$(OutDir)" /y /i /d
+xcopy "$(ProjectDir)ExeliusCore\ThirdParty\Middleware\Box2D\lib\$(Configuration)\*.pdb" "$(OutDir)" /y /i /d</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)ExeliusCore;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2\include;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_image\include;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_mixer\include;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_ttf\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>SDL2.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;zlibstat.lib;Lua.lib;box2d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2\lib\$(PlatformShortName)\;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_image\lib\$(PlatformShortName)\;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_ttf\lib\$(PlatformShortName)\;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_mixer\lib\$(PlatformShortName)\;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\zlib\lib\$(PlatformShortName)_$(Configuration)\;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\Box2D\lib\$(Configuration)\;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\Lua\lib\$(PlatformShortName)_$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4006</AdditionalOptions>
+    </Lib>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2\lib\$(PlatformShortName)\*.dll" "$(OutDir)" /y /i /d
+xcopy "$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_image\lib\$(PlatformShortName)\*.dll" "$(OutDir)" /y /i /d
+xcopy "$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_mixer\lib\$(PlatformShortName)\*.dll" "$(OutDir)" /y /i /d
+xcopy "$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_ttf\lib\$(PlatformShortName)\*.dll" "$(OutDir)" /y /i /d
+xcopy "$(ProjectDir)ExeliusCore\ThirdParty\Middleware\Lua\lib\$(PlatformShortName)_$(Configuration)\*.dll" "$(OutDir)" /y /i /d
+xcopy "$(ProjectDir)ExeliusCore\ThirdParty\Middleware\Box2D\lib\$(Configuration)\*.pdb" "$(OutDir)" /y /i /d</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)ExeliusCore;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2\include;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_image\include;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_mixer\include;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_ttf\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>SDL2.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;zlibstat.lib;Lua.lib;box2d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2\lib\$(PlatformShortName)\;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_image\lib\$(PlatformShortName)\;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_ttf\lib\$(PlatformShortName)\;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_mixer\lib\$(PlatformShortName)\;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\zlib\lib\$(PlatformShortName)_$(Configuration)\;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\Box2D\lib\$(Configuration)\;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\Lua\lib\$(PlatformShortName)_$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4006</AdditionalOptions>
+    </Lib>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2\lib\$(PlatformShortName)\*.dll" "$(OutDir)" /y /i /d
+xcopy "$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_image\lib\$(PlatformShortName)\*.dll" "$(OutDir)" /y /i /d
+xcopy "$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_mixer\lib\$(PlatformShortName)\*.dll" "$(OutDir)" /y /i /d
+xcopy "$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_ttf\lib\$(PlatformShortName)\*.dll" "$(OutDir)" /y /i /d
+xcopy "$(ProjectDir)ExeliusCore\ThirdParty\Middleware\Lua\lib\$(PlatformShortName)_$(Configuration)\*.dll" "$(OutDir)" /y /i /d
+xcopy "$(ProjectDir)ExeliusCore\ThirdParty\Middleware\Box2D\lib\$(Configuration)\*.pdb" "$(OutDir)" /y /i /d</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)ExeliusCore;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2\include;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_image\include;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_mixer\include;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_ttf\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>SDL2.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;zlibstat.lib;Lua.lib;box2d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2\lib\$(PlatformShortName)\;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_image\lib\$(PlatformShortName)\;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_ttf\lib\$(PlatformShortName)\;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_mixer\lib\$(PlatformShortName)\;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\zlib\lib\$(PlatformShortName)_$(Configuration)\;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\Box2D\lib\$(Configuration)\;$(ProjectDir)ExeliusCore\ThirdParty\Middleware\Lua\lib\$(PlatformShortName)_$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4006</AdditionalOptions>
+    </Lib>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2\lib\$(PlatformShortName)\*.dll" "$(OutDir)" /y /i /d
+xcopy "$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_image\lib\$(PlatformShortName)\*.dll" "$(OutDir)" /y /i /d
+xcopy "$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_mixer\lib\$(PlatformShortName)\*.dll" "$(OutDir)" /y /i /d
+xcopy "$(ProjectDir)ExeliusCore\ThirdParty\Middleware\SDL2_ttf\lib\$(PlatformShortName)\*.dll" "$(OutDir)" /y /i /d
+xcopy "$(ProjectDir)ExeliusCore\ThirdParty\Middleware\Lua\lib\$(PlatformShortName)_$(Configuration)\*.dll" "$(OutDir)" /y /i /d
+xcopy "$(ProjectDir)ExeliusCore\ThirdParty\Middleware\Box2D\lib\$(Configuration)\*.pdb" "$(OutDir)" /y /i /d</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

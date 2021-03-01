@@ -1,0 +1,11 @@
+<Actor>
+    <TransformComponent>
+      <Position x="0" y="0"/>
+    </TransformComponent>
+    <TextRenderComponent path="Fonts/emulogic.ttf">
+        <Dimensions width="48" height="24"/>
+        <Size>20</Size>
+        <Color red="255" green="0" blue="0" alpha="255"/>
+        <Text>00</Text>
+    </TextRenderComponent>
+</Actor>

@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="ExeliusCore\Game\Actor.h">
+      <Filter>ExeliusCore\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Components\AIComponent.h">
+      <Filter>ExeliusCore\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Components\AnimationComponent.h">
+      <Filter>ExeliusCore\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Components\BoxRenderComponent.h">
+      <Filter>ExeliusCore\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Processes\AnimationProcess.h">
+      <Filter>ExeliusCore\Components\Processes</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Processes\DelayProcess.h">
+      <Filter>ExeliusCore\Components\Processes</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Processes\MoveProcess.h">
+      <Filter>ExeliusCore\Components\Processes</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Managers\Audio.h">
+      <Filter>ExeliusCore\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Managers\Graphics.h">
+      <Filter>ExeliusCore\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Managers\Input.h">
+      <Filter>ExeliusCore\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Utilities\Color.h">
+      <Filter>ExeliusCore\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Events\CreateActorEvent.h">
+      <Filter>ExeliusCore\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Events\DestroyActorEvent.h">
+      <Filter>ExeliusCore\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Events\Events.h">
+      <Filter>ExeliusCore\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Game\GameLayer.h">
+      <Filter>ExeliusCore\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Events\InputEvent.h">
+      <Filter>ExeliusCore\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Mapping\Layer.h">
+      <Filter>ExeliusCore\Mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Mapping\Map.h">
+      <Filter>ExeliusCore\Mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Mapping\MapObject.h">
+      <Filter>ExeliusCore\Mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Mapping\ObjectLayer.h">
+      <Filter>ExeliusCore\Mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Utilities\Logger.h">
+      <Filter>ExeliusCore\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Components\PlayerComponent.h">
+      <Filter>ExeliusCore\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\ResourceManagement\Resource.h">
+      <Filter>ExeliusCore\ResourceManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Managers\System.h">
+      <Filter>ExeliusCore\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Managers\ScriptManager.h">
+      <Filter>ExeliusCore\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Mapping\TileSet.h">
+      <Filter>ExeliusCore\Mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Mapping\TileLayer.h">
+      <Filter>ExeliusCore\Mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Mapping\Property.h">
+      <Filter>ExeliusCore\Mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Processes\Processes.h">
+      <Filter>ExeliusCore\Components\Processes</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Components\ScriptComponent.h">
+      <Filter>ExeliusCore\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Components\TextRenderComponent.h">
+      <Filter>ExeliusCore\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Components\TextureComponent.h">
+      <Filter>ExeliusCore\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Components\TileSetComponent.h">
+      <Filter>ExeliusCore\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Components\TransformComponent.h">
+      <Filter>ExeliusCore\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\ThirdParty\TinyXML2\tinyxml2.h">
+      <Filter>ExeliusCore\ThirdParty\TinyXML2</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Game\View.h">
+      <Filter>ExeliusCore\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Game\Physics\IPhysicsManager.h">
+      <Filter>ExeliusCore\GameLayer\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Game\Physics\Box2D\Box2DPhysics.h">
+      <Filter>ExeliusCore\GameLayer\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Components\PowerUpComponent.h">
+      <Filter>ExeliusCore\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Components\Physics\Box2D\Box2DPhysicsComponent.h">
+      <Filter>ExeliusCore\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Components\Physics\IPhysicsComponent.h">
+      <Filter>ExeliusCore\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Game\Physics\Box2D\Box2DContactListener.h">
+      <Filter>ExeliusCore\GameLayer\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Utilities\Vector2.h">
+      <Filter>ExeliusCore\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Utilities\Shapes\Shapes.h">
+      <Filter>ExeliusCore\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Utilities\Random\Random.h">
+      <Filter>ExeliusCore\Utilities\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Utilities\Random\Noise\PerlinNoise.h">
+      <Filter>ExeliusCore\Utilities\Random\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Utilities\Random\Noise\SquirrelNoise.h">
+      <Filter>ExeliusCore\Utilities\Random\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\Utilities\Math\Math.h">
+      <Filter>ExeliusCore\Utilities\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeliusCore\ApplicationLayer.h">
+      <Filter>ExeliusCore</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ExeliusCore">
+      <UniqueIdentifier>{82845ae4-9b34-4e55-b257-0ea8e87757aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExeliusCore\Components">
+      <UniqueIdentifier>{91fcc861-d607-4111-a9c0-748b2bd07023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExeliusCore\Events">
+      <UniqueIdentifier>{3ff03daf-35ee-4d5a-82fc-03bb4486255a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExeliusCore\ResourceManagement">
+      <UniqueIdentifier>{2abc16f5-ad81-4d82-8a01-8012e6901e23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExeliusCore\Utilities">
+      <UniqueIdentifier>{aef72f97-0578-4765-b566-e9fc7c2de9a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExeliusCore\ThirdParty">
+      <UniqueIdentifier>{cfc9c147-a9a5-40fd-935f-1e2cfcb0316b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExeliusCore\ThirdParty\TinyXML2">
+      <UniqueIdentifier>{08e5118f-63bf-49a4-8b41-a243e6500ca6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExeliusCore\Managers">
+      <UniqueIdentifier>{cb8e5c4c-eda1-47ce-b7de-02844942fa41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExeliusCore\Components\Processes">
+      <UniqueIdentifier>{ce8fc68b-fad2-4f21-b226-0e2f71dda545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExeliusCore\GameLayer">
+      <UniqueIdentifier>{aba77c8b-415f-473d-a572-5a36734c5938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExeliusCore\Mapping">
+      <UniqueIdentifier>{d45523bd-ef01-4159-8fa6-2ab0b702280b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExeliusCore\GameLayer\Physics">
+      <UniqueIdentifier>{1f4295ed-c90b-41a2-8b6f-1e699aa49c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExeliusCore\Utilities\Random">
+      <UniqueIdentifier>{9867e9b1-302d-4931-bbdf-6c5ee51a798e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExeliusCore\Utilities\Random\Noise">
+      <UniqueIdentifier>{82402e75-8f36-4b23-8516-408eb37aa9b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExeliusCore\Utilities\Math">
+      <UniqueIdentifier>{6c5d4ced-f404-4240-9dbe-117d1d25b017}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ExeliusCore\Game\Actor.cpp">
+      <Filter>ExeliusCore\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Components\AnimationComponent.cpp">
+      <Filter>ExeliusCore\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Components\BoxRenderComponent.cpp">
+      <Filter>ExeliusCore\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Processes\AnimationProcess.cpp">
+      <Filter>ExeliusCore\Components\Processes</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Processes\DelayProcess.cpp">
+      <Filter>ExeliusCore\Components\Processes</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Processes\MoveProcess.cpp">
+      <Filter>ExeliusCore\Components\Processes</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Managers\Audio.cpp">
+      <Filter>ExeliusCore\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Managers\Graphics.cpp">
+      <Filter>ExeliusCore\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Managers\Input.cpp">
+      <Filter>ExeliusCore\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Events\Events.cpp">
+      <Filter>ExeliusCore\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Game\GameLayer.cpp">
+      <Filter>ExeliusCore\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Mapping\Map.cpp">
+      <Filter>ExeliusCore\Mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Mapping\MapObject.cpp">
+      <Filter>ExeliusCore\Mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Mapping\ObjectLayer.cpp">
+      <Filter>ExeliusCore\Mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Utilities\Logger.cpp">
+      <Filter>ExeliusCore\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\ResourceManagement\Resource.cpp">
+      <Filter>ExeliusCore\ResourceManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Managers\System.cpp">
+      <Filter>ExeliusCore\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Managers\ScriptManager.cpp">
+      <Filter>ExeliusCore\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Mapping\TileSet.cpp">
+      <Filter>ExeliusCore\Mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Mapping\TileLayer.cpp">
+      <Filter>ExeliusCore\Mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Mapping\Property.cpp">
+      <Filter>ExeliusCore\Mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Processes\Processes.cpp">
+      <Filter>ExeliusCore\Components\Processes</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Components\ScriptComponent.cpp">
+      <Filter>ExeliusCore\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Components\TextRenderComponent.cpp">
+      <Filter>ExeliusCore\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Components\TextureComponent.cpp">
+      <Filter>ExeliusCore\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Components\TileSetComponent.cpp">
+      <Filter>ExeliusCore\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Components\TransformComponent.cpp">
+      <Filter>ExeliusCore\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\ThirdParty\Middleware\TinyXML2\tinyxml2.cpp">
+      <Filter>ExeliusCore\ThirdParty\TinyXML2</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Components\Physics\Box2D\Box2DPhysicsComponent.cpp">
+      <Filter>ExeliusCore\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Components\Physics\IPhysicsComponent.cpp">
+      <Filter>ExeliusCore\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Game\Physics\Box2D\Box2DPhysics.cpp">
+      <Filter>ExeliusCore\GameLayer\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Game\Physics\IPhysicsManager.cpp">
+      <Filter>ExeliusCore\GameLayer\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Game\Physics\Box2D\Box2DContactListener.cpp">
+      <Filter>ExeliusCore\GameLayer\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\Utilities\Random\Random.cpp">
+      <Filter>ExeliusCore\Utilities\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeliusCore\ApplicationLayer.cpp">
+      <Filter>ExeliusCore</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

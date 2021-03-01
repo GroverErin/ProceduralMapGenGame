@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\Main.cpp" />
+    <ClCompile Include="Source\Application\Application.cpp">
+      <Filter>Source\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FormalGrammar\FormalGrammar.cpp">
+      <Filter>Source\FormalGrammar</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\View\GeneratorView.cpp">
+      <Filter>Source\View</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\World\TileMap\TileMap.cpp">
+      <Filter>Source\World\TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\World\WorldGeneration\WorldGenerator.cpp">
+      <Filter>Source\World\WorldGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FormalGrammar\WorldGenerator\GrammarWorldGenerator.cpp">
+      <Filter>Source\FormalGrammar\WorldGeneratorGrammar</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FormalGrammar\WeaponGenerator\WeaponGenerator.cpp">
+      <Filter>Source\FormalGrammar\WeaponGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\World\CloudGeneration\CloudGenerator.cpp">
+      <Filter>Source\World\CloudGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\World\FireGeneration\FireGenerator.cpp">
+      <Filter>Source\World\FireGeneration</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Application\Application.h">
+      <Filter>Source\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FormalGrammar\FormalGrammar.h">
+      <Filter>Source\FormalGrammar</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\View\GeneratorView.h">
+      <Filter>Source\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\World\TileMap\TileMap.h">
+      <Filter>Source\World\TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\World\WorldGeneration\WorldGenerator.h">
+      <Filter>Source\World\WorldGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FormalGrammar\WorldGenerator\GrammarWorldGenerator.h">
+      <Filter>Source\FormalGrammar\WorldGeneratorGrammar</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FormalGrammar\WeaponGenerator\WeaponGenerator.h">
+      <Filter>Source\FormalGrammar\WeaponGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\World\CloudGeneration\CloudGenerator.h">
+      <Filter>Source\World\CloudGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\World\GenertionSettings\GeneratorConfig.h">
+      <Filter>Source\World\GenerationSettings</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\World\GenertionSettings\NoiseParameters.h">
+      <Filter>Source\World\GenerationSettings</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\World\FireGeneration\FireGenerator.h">
+      <Filter>Source\World\FireGeneration</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{f47842b5-7007-4038-9765-76e57a1d8447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\View">
+      <UniqueIdentifier>{70804eaa-4bc3-4c85-83e4-e14890ff7459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Application">
+      <UniqueIdentifier>{d8787079-5551-40c0-a6dc-c8f387fbfb52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FormalGrammar">
+      <UniqueIdentifier>{6e36a6e6-ca83-4d67-95a3-07511514c668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\World">
+      <UniqueIdentifier>{00d02f9c-a72d-4b56-99b3-4cd2bc718329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\World\TileMap">
+      <UniqueIdentifier>{2dcd8e4a-a34b-486f-be0d-07b1fad2d87c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\World\WorldGeneration">
+      <UniqueIdentifier>{12508293-b6f6-4be6-bb5a-632789785d37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FormalGrammar\WorldGeneratorGrammar">
+      <UniqueIdentifier>{de4bcce2-dfdd-41cd-95f9-6b6ab3d25fce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FormalGrammar\WeaponGenerator">
+      <UniqueIdentifier>{a827fe84-a6c3-4949-a74d-de0987416048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\World\CloudGeneration">
+      <UniqueIdentifier>{007f98cf-c3ae-418f-b072-dbd5c397168a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\World\GenerationSettings">
+      <UniqueIdentifier>{178e139d-8bcb-4d6e-9e95-ad11ad152ed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\World\FireGeneration">
+      <UniqueIdentifier>{ca935002-4b45-4025-a8b0-0ba44f8edaa1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
