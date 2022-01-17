@@ -3,7 +3,7 @@
 
 I really enjoyed this project, the goal was to create a game using 3 different types of procedural content. I had wanted to attempt to make a cool map for a few semesters now, so I really dove into the tuning of how the maps looked. I found a [blog](http://androidarts.com/skeletonwars/) online that had a hand-drawn pixel art map that I wanted to try to replicate. [You can download the release build here.](https://github.com/GroverErin/ProceduralMapGenGame/releases/download/v1.0.0/NoiseMap_x64_Release.zip)
 
-### This project uses previous iteration of the Exelius Engine and is not similar to, or a representation of, the in-progress version of [Exelius](https://github.com/GroverErin/ExeliusEngine).
+### This project uses a previous iteration of the Exelius Engine and is not similar to, or a representation of, the in-progress version of [Exelius](https://github.com/GroverErin/ExeliusEngine).
 
 Hand-Drawn Image (Arne Niklas Jansson, 2006-2010):
 <p align="center">
