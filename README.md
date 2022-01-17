@@ -41,6 +41,7 @@ Some Instructions are shown in the console, as well as the win/lose state and ot
    - `Space` over land to attempt to extinguish the fire.
    - `Q` will quit the game.
    - `Esc` will regenerate the map.
+   - You win the game by extinguishing all the fire before losing %80 of the land.
 
 ## Installation
 ### Windows
